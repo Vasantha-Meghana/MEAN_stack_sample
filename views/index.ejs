@@ -1,0 +1,8 @@
+<h1>User List</h1>
+<ul>
+  <% users.forEach(user => { %>
+  <li><%= user.name %> - <%= user.age %> years old</li>
+  <% }) %>
+</ul>
+
+<a href="/add">Add New User</a>
