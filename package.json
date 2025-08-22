@@ -1,13 +1,12 @@
 {
   "name": "user-app",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A sample MEAN stack user management app",
+  "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Your Name",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^2.2.0",
@@ -15,6 +14,7 @@
     "express": "^5.1.0",
     "sqlite3": "^5.1.7"
   },
-  "devDependencies": {},
-  "description": ""
+  "engines": {
+    "node": ">=16.x"
+  }
 }
